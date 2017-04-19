@@ -1,0 +1,34 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "My implementation of freeCodeCamp's Image Search Abstraction Layer",
+  "engines": {
+    "node": "6.9.4"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aedryan/image-search-aedryan"
+  },
+  "author": "Andrew Cox",
+  "license": "ISC",
+  "dependencies": {
+    "babel-brunch": "^6.1.1",
+    "brunch": "^2.10.9",
+    "css-brunch": "^2.10.0",
+    "express": "^4.15.2",
+    "javascript-brunch": "^2.10.0",
+    "mongodb": "^2.2.25",
+    "pug": "^2.0.0-beta11",
+    "pugjs-brunch": "^2.10.0",
+    "uglify-js-brunch": "^2.10.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}

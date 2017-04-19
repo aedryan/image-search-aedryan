@@ -1,0 +1,17 @@
+div(id='search-container')
+    h1= 'Image Search'
+    div(class='header-controls')
+        div(class='field-container')
+            label= 'Search'
+            input(type='text' id='search-input')
+        div(class='field-container')
+            label= 'Offset'
+            input(type='number' id='offset-input')
+        div(class='button-container')
+            button(id='search-button')= 'Search'
+    div(id='results-container' class='table-container')
+        h2= 'Image Results'
+        table(id='results-table')
+    div(id='recents-container' class='table-container')
+        h2= 'Recent Searches'
+        table(id='recents-table')

@@ -1,0 +1,15 @@
+div(id='usage-container')
+    div(class='example-container')
+        h1= 'Example Usage'
+        p
+            a(href= host + '/api/search/sailboats?offset=2')= host + '/api/search/sailboats?offset=2'
+        p
+            a(href= host + '/api/recent')= host + '/api/recent'
+    div(class='example-container')
+        h1= 'Example Output'
+        p
+            b= '/api/search/sailboats'
+            span= '[{"name":"New Blog 2: Catamaran Sailboats For Sale","imageUrl":"http://www.bing.com/cr?IG=85D1C46F6D4E4E939EA26FFF5E3FE9DE&CID=16F6A51E9738657D2B16AF7996A864DD&rd=1&h=3gBp7i0TIS6bHj9zOzGCRuZqUU49DqNRqGVlZU_WrYw&v=1&r=http%3a%2f%2fboats.glo-con.com%2fimages%2fSB1C615_s.jpg&p=DevEx,5008.1","pageUrl":"itgnewblogwallper.blogspot.com/2012/11/catamaran-sailboats-for-sale...","thumbnailUrl":"https://tse3.mm.bing.net/th?id=OIP.r2wG2X3Ja4HY0Oo6rC3x8gEKEs&pid=Api"}]'
+        p 
+            b= '/api/recent'
+            span= '["date":"2017-04-17T21:50:30.646Z","search":"sailboats"}]'
